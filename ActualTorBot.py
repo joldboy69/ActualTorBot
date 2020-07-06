@@ -9,7 +9,7 @@ url = input("Enter the url of adfly link: ")
 
 options = webdriver.ChromeOptions()
 
-options.add_argument("--proxy-server=" + "socks5://127.0.0.1:9050")
+options.add_argument("--proxy-server=socks5://127.0.0.1:9050")
 
 for i in range(times):
     os.popen(r'C:\Users\<YOURUSERNAME>\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe')
