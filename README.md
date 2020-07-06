@@ -5,6 +5,7 @@ To use the program, you will need a couple of things.
 
 1. Tor installed to your desktop. 
 2. Python3 installed on your pc (yes this is for pc only at the moment). 
+3. Install the python packages (pip3 install selenium time os)
 
 You will also need to modify the script a tiny bit by changing the tor directory path with your username. 
 
